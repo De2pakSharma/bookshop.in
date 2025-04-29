@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif !important;
@@ -214,6 +214,9 @@ body {
   }
   @media (max-width: 575px) {
     .bookcard{
+      display: none;
+    }
+    .navicon{
       display: none;
     }
   }
