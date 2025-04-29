@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif !important;
+}
+body {
+    font-family: 'Segoe UI', sans-serif !important;
+  }
+  
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 .ul .li{
+   font-size: 16px;
+}
+.leftbanner{
+    justify-content: center;
+ padding:  10% 0;
+}
+.smalltxt{
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+
+}
+.bannerhadding{
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1px;
+        margin: 15px 0px 25px;
+}
+.bannercheck{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+} 
+.btn{
+    font-weight: 600 !important; 
+    font-size: 0.8rem !important;
+    font-family: "DM Sans", sans-serif !important;
+    padding: 12px 30px !important;
+    border-radius: 5px !important;
+    margin-top: 25px;
+}
+
+.img-fluid {
+    width: 100% !important; /* Take full width of the parent */
+    height: 95% !important; /* Maintain aspect ratio */
+    display: block !important; /* Removes small spacing below image */
+}
+.img-fluid{
+    padding:  5% 0;
+   }
+   .section2 {
+    text-align: center;
+  }
+  
+  .section2 h3 {
+    margin: 10px 0px 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 32px;
+    color: #333;
+  }
+
+
+  .text-light {
+    color: rgb(0, 128, 255) !important;
+}
+  .promo-section {
+    padding: 60px 0;
+  }
+  .promo-section img {
+    max-width: 100%;
+    
+  }
+  .promo-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1d1d1f;
+  }
+  .promo-desc {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  .promo-feature i {
+    color: #ea4c89;
+    margin-right: 10px;
+  }
+  .promo-btn {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+  .promo-btn:hover {
+    background-color: #4338ca;
+  }
+  .section-title {
+    font-weight: 700;
+  }
+  .section-subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .chapter-title {
+    font-weight: 600;
+  }
+  .active-underline {
+    height: 2px;
+    width: 30px;
+    background-color: red;
+    margin: 10px auto;
+  }
+  .section-heading {
+    font-weight: 700;
+  }
+  .subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .underline {
+    width: 40px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin: 10px auto;
+  }
+  .info-card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  .section-title {
+    font-weight: 700;
+  }
+  .section-subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #6c757d;
+  }
+  .underline {
+    width: 40px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin: 10px auto 30px;
+  }
+  .pricing-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 30px;
+    transition: all 0.3s ease;
+  }
+  .pricing-price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .pricing-link {
+    color: #5b5bf0;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .pricing-link:hover {
+    text-decoration: underline;
+  }
+  .pricing-list {
+    padding-left: 0;
+    list-style: none;
+  }
+  .pricing-list li {
+    margin: 10px 0;
+  }
+   
+  .section-title {
+    font-weight: 700;
+    text-align: center;
+  }
+  .section-subtitle {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #6c757d;
+    text-align: center;
+  }
+  .underline {
+    width: 40px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin: 10px auto 30px;
+  }
+  .form-control {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    background-color: #f2f2f2;
+  }
+  .form-textarea {
+    border-radius: 16px !important;
+    height: 150px;
+  }
+  @media (max-width: 575px) {
+    .bookcard{
+      display: none;
+    }
+  }
